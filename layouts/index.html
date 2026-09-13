@@ -1,0 +1,143 @@
+{{ define "main" }}
+<section class="landing">
+  <h1 class="landing-name">Shiori Fujimaki</h1>
+  <p class="landing-subtitle">theater / research</p>
+  <p class="landing-info">東京科学大学研究員/ATELIERシーソー（演劇）<br>1999年埼玉県出身、肩書き考え中。</p>
+
+  <div class="landing-bio">
+    <p>普段は理系の大学でデザイン系の研究をしながら、たまに美大の仲間と演劇を作っています。</p>
+    <p>📝 <strong>大学の活動</strong><br>
+    未来を考えるワークショップを企業の方や地域の方向けに開催したり、展示をしたりしています。<a href="https://futurelivinglab.org/" target="_blank" rel="noopener">みらいリビングラボ</a>の取り組みを紹介しています。</p>
+    <p>🎭 <strong>演劇</strong><br>
+    大学から続けている団体です。場所性を活かした公演を作っています。雰囲気は<a href="https://www.instagram.com/atelier.seesaw/" target="_blank" rel="noopener">Instagram</a>からのぞけます。</p>
+  </div>
+
+  <div class="landing-links">
+    <a href="https://www.instagram.com/shioroll_/" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://x.com/shiorifujmaki" target="_blank" rel="noopener">X</a>
+    <a href="/essays/">Essays</a>
+    <a href="mailto:fujimakishiori@gmail.com">Mail</a>
+  </div>
+
+  <hr class="landing-divider">
+
+  <div class="landing-groups">
+    <h2>所属・参加している活動</h2>
+
+    <div class="landing-group">
+      <h3>ATELIERシーソー</h3>
+      <div class="landing-links">
+        <a href="https://www.instagram.com/atelier.seesaw/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://x.com/atelierseesaw" target="_blank" rel="noopener">X</a>
+        <a href="https://open.spotify.com/show/6KcG042lmH9DOLaN3YhDDH" target="_blank" rel="noopener">Spotify</a>
+        <a href="https://www.youtube.com/@ATELIERseesaw" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+
+    <div class="landing-group">
+      <h3>みらいリビングラボ</h3>
+      <div class="landing-links">
+        <a href="https://futurelivinglab.org/" target="_blank" rel="noopener">Home</a>
+        <a href="https://www.instagram.com/mirai.living.lab/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+
+    <div class="landing-group">
+      <h3>ヌエ会</h3>
+      <p class="landing-comingsoon">Coming soon</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.landing {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  text-align: center;
+}
+.landing-photo {
+  display: block;
+  margin: 0 auto 1.25rem;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.landing-name {
+  font-size: 2rem;
+  margin: 0 0 0.25rem;
+}
+.landing-subtitle {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-bottom: 1rem;
+}
+.landing-info {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  opacity: 0.85;
+  margin-bottom: 1.75rem;
+}
+.landing-bio {
+  text-align: left;
+  line-height: 1.9;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+.landing-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+.landing-links a {
+  padding: 0.4rem 1rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  opacity: 0.75;
+}
+.landing-links a:hover {
+  opacity: 1;
+}
+.landing-cta {
+  background: #333;
+  color: #fff !important;
+  border-color: #333 !important;
+  font-weight: 600;
+  opacity: 1 !important;
+}
+.landing-cta:hover {
+  opacity: 0.85 !important;
+}
+.landing-divider {
+  border: none;
+  border-top: 1px solid currentColor;
+  opacity: 0.15;
+  margin: 2rem 0;
+}
+.landing-groups h2 {
+  font-size: 1rem;
+  opacity: 0.6;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.landing-group {
+  margin-bottom: 1.75rem;
+}
+.landing-group h3 {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-bottom: 0.6rem;
+}
+.landing-comingsoon {
+  font-size: 0.85rem;
+  opacity: 0.5;
+}
+</style>
+{{ end }}

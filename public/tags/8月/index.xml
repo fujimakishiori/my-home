@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>8月 on Shiori Fujimaki</title>
+    <link>http://localhost:50002/tags/8%E6%9C%88/</link>
+    <description>Recent content in 8月 on Shiori Fujimaki</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 04 Sep 2026 19:41:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:50002/tags/8%E6%9C%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>やっぱり</title>
+      <link>http://localhost:50002/essays/essay-03/</link>
+      <pubDate>Fri, 04 Sep 2026 19:41:00 +0900</pubDate>
+      <guid>http://localhost:50002/essays/essay-03/</guid>
+      <description>&lt;p&gt;色々なところに属したところで、自分の性格は変わらない。
+嫌なところも、良いところも。&lt;/p&gt;
+&lt;p&gt;そんなことを思った8月でした。&lt;/p&gt;
+&lt;p&gt;何かを始めなければいけないのかもですね。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

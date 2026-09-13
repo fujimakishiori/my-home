@@ -1,0 +1,56 @@
+baseURL = 'https://example.org/'
+locale = 'ja'
+title = "Shiori Fujimaki"
+theme = "PaperMod"
+
+[params]
+  description = "日々のことを綴るエッセイ集"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+
+    [params.homeInfoParams]
+    Title = "こんな人"
+    Content = """
+私は美大を卒業後、2ヶ月のニート期間を得て、いまは東京科学大学で研究員をしています。
+
+異なる価値観の中で過ごすと、自分が美大で学んだこと、美大の仲間と共有した大切なことがうまく伝わらない、伝えられないかもしれない、と思うようになりました。
+
+それでも、最近は少しずつ伝わる説明をできるようになってきたし、相手がなるほどと思ってくれることも増えました。
+
+ただ、「相手に伝わる」ということは、相手の思考回路を理解できることでもある気がしていて、違う考え方を理解する過程は、美大生の頃の感覚を忘れてしまうようにも感じました。
+
+まだモヤモヤしていたあの頃の自分を大切にするために、日々あったことを書き留めていきたいと思っています。
+
+普段は理系の大学でデザイン系の研究をしながら、たまに美大の仲間と演劇を作っています。
+
+📝 **大学の活動**
+
+未来を考えるワークショップを企業の方や地域の方向けに開催したり、展示をしたりしています。[みらいリビングラボ](https://futurelivinglab.org/)の取り組みを紹介しています。
+
+🎭 **演劇**
+
+雰囲気は[Instagram](https://www.instagram.com/atelier.seesaw/)からのぞけます。
+
+よければお付き合いいただけると嬉しいです。
+"""
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Essays"
+  url = "/essays/"
+  weight = 2
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
